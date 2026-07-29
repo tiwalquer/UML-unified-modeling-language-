@@ -1,1 +1,27 @@
+•A Linguagem de modelagem unificada (UML) -  ́e uma linguagem de modelagem de prop ́osito geral. Habilita profissionais de TI amodelar e documentar aplica ̧c ̃oes de software de uma forma padronizada.
+• Oferece a visualizacao de sistemas de softwares complexos por meio de diagramas.
 
+Diagramas:
+  Diagramas Estruturais:
+  • Tratam o aspecto estrutural tanto do ponto de vista do sistema
+  quanto das classes.
+  Diagramas Comportamentais:
+  • Utilizado para visualizar, especificar, construir e documentar
+  aspectos dinˆamicos de um devido sistema.
+
+    Diagramas de Classes = 
+      Alem disso, o diagrama de classes apresenta modificadores de acesso. Os mais conhecidos sao os seguintes:
+      • Publico (+);
+      • Privado (-);
+      • Protegido (#).
+
+      Multiplicidade:
+      A multiplicidade  ́e utilizada para definir o numero maximo e mınimo
+      de objetos envolvidos nas associacoes.
+      Multiplicidade Descricao
+      0..1 No mınimo zero e no maximo um. Indica nao-obrigatoriedade do relacionamento.
+      1..1 Um e somente um. Um objeto se relaciona com um objeto de outra classe.
+      0..* Mınimo nenhum e no maximo muitos.
+      1..* Mınimo um e no maximo muitos.
+      * Muitos.
+      3..5 Mınimo tres e no maximo cinco.
