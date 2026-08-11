@@ -34,9 +34,10 @@ Diagramas:
 
       Estereótipo:
       O estereotipo indica como uma classe é utilizada pelo projeto
-      • <<entity>>
-      • <<boudary>>
-      • <<control>>
+      • <<entity>> = model,  representacao do BD( banco de dados). a classe contém informações recebidas e armazenadas pelo sistema ou geradas por meio desse 
+      • <<boudary>> = fronteira, visual, identifica que uma classe serve de comunicação entre atores externos e o sistema. Muitas vezes necessita interagir com outra classe do tipo <<control>>
+      • <<control>> = funcoes, são responsáveis por interpretar eventos ocorridos sobre os objetos <<boundary>>,   
+          como por exemplo o movimento do mouse e retransmití-lo aos objetos de uma classe de entidade que compõem o sistema. 
 
       Relacionamento: 
 
