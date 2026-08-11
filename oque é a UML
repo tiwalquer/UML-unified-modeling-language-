@@ -15,7 +15,7 @@ Diagramas:
 
     Diagramas de Classes = 
       MVC
-        
+        - separe o M do V do C, para melhor organizacao 
       Alem disso, o diagrama de classes apresenta modificadores de acesso. Os mais conhecidos sao os seguintes:
       • Publico (+);
       • Privado (-);
