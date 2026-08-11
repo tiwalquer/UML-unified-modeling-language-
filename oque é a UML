@@ -14,6 +14,8 @@ Diagramas:
 
 
     Diagramas de Classes = 
+      MVC
+        
       Alem disso, o diagrama de classes apresenta modificadores de acesso. Os mais conhecidos sao os seguintes:
       • Publico (+);
       • Privado (-);
@@ -29,3 +31,16 @@ Diagramas:
       1..* Mınimo um e no maximo muitos.
       * Muitos.
       3..5 Mınimo tres e no maximo cinco.
+
+      Estereótipo:
+      O estereotipo indica como uma classe é utilizada pelo projeto
+      • <<entity>>
+      • <<boudary>>
+      • <<control>>
+
+      Relacionamento: 
+
+
+
+
+
