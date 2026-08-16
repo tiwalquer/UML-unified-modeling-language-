@@ -1,0 +1,6 @@
+MVC (Model-View-Controller) =
+Model (Dados e Regras de Negócio): Representa o estado dos dados e as regras do sistema. Não deve saber como a tela é desenhada.
+
+View (Interface com o Usuário): Telas e painéis onde o usuário digita dados, clica em botões e assiste vídeos.
+
+Controller (Intermediário): Recebe os eventos/cliques das telas (View), executa a lógica necessária alterando as classes de dados (Model) e devolve a resposta para a View.
