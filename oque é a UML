@@ -14,7 +14,8 @@ Diagramas:
 
 
     Diagramas de Classes = 
-      MVC
+     
+  
         - separe o M do V do C, para melhor organizacao 
       Alem disso, o diagrama de classes apresenta modificadores de acesso. Os mais conhecidos sao os seguintes:
       • Publico (+);
@@ -32,12 +33,16 @@ Diagramas:
       * Muitos.
       3..5 Mınimo tres e no maximo cinco.
 
-      Estereótipo:
+      Estereótipo: padrao MVC
       O estereotipo indica como uma classe é utilizada pelo projeto
-      • <<entity>> = model,  representacao do BD( banco de dados). a classe contém informações recebidas e armazenadas pelo sistema ou geradas por meio desse 
-      • <<boudary>> = fronteira, visual, identifica que uma classe serve de comunicação entre atores externos e o sistema. Muitas vezes necessita interagir com outra classe do tipo <<control>>
-      • <<control>> = funcoes, são responsáveis por interpretar eventos ocorridos sobre os objetos <<boundary>>,   
+      • <<entity>> / <<Model>> = representacao do BD( banco de dados). a classe contém informações recebidas e armazenadas pelo sistema ou geradas por meio desse 
+          -tem que ter atributo
+      • <<boudary>> / <<View>> = responsavel pela parte visual identifica que uma classe serve de comunicação entre atores externos e o sistema. 
+          Muitas vezes necessita interagir com outra classe do tipo <<control>>
+          -pode ter funcao ou atributo
+      • <<control>> = funcoes, são responsáveis por interpretar eventos ocorridos sobre os objetos <<boundary>>,
           como por exemplo o movimento do mouse e retransmití-lo aos objetos de uma classe de entidade que compõem o sistema. 
+          - tem que ter funcao
 
       Relacionamento: 
 
