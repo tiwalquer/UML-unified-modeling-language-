@@ -1,7 +1,9 @@
 MVC (Model-View-Controller) = é uma padronizacao para o diagrama de classes
-Model (Dados e Regras de Negócio): Representa o estado dos dados e as regras do sistema. Não deve saber como a tela é desenhada.
+Model/entity (Dados e Regras de Negócio): Representa o estado dos dados e as regras do sistema. Não deve saber como a tela é desenhada.
+  - é o que tem os atributos
 
-View (Interface com o Usuário): Telas e painéis onde o usuário digita dados, clica em botões e assiste vídeos.
+View/boundary (Interface com o Usuário): Telas e painéis onde o usuário digita dados, clica em botões e assiste vídeos.
   Se quiser colocar atributos nas classes views crie eles tendo em mente componentes da interface (Widgets) ou estados temporários da tela
 
 Controller (Intermediário): Recebe os eventos/cliques das telas (View), executa a lógica necessária alterando as classes de dados (Model) e devolve a resposta para a View.
+  - é o qual tem funcoes
