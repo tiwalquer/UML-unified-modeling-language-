@@ -2,7 +2,7 @@ vai no print diagram, e de um PDF
 
 Funciona com base em classes do tipo controler( diagrama de classes)
   e pega as funcoes que alterar 
-  
+  um estado nao pode ter dois eventos saindo dele, nesse caso se usa um choose.
 
 
 Principais Elementos: 
@@ -19,7 +19,7 @@ Principais Elementos:
   
   Guarda / Condição (Entre colchetes [ ]): Uma regra booleana necessária para que a transição aconteça (ex: [pontos >= 100]).
 
-  chose/pseudo-gate = quando tem duas condicoes saindo de um estado
+  choose/pseudo-gate = quando tem duas condicoes saindo de um estado
 
 Sintaxe da Transição
   A notação padrão para nomear as setas de transição é: Evento [condicao de guarda] / acao; Exemplo: clicarPause() [somLigado == true] / pausarAudio()
