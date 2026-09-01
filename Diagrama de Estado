@@ -1,5 +1,8 @@
+vai no print diagram, e de um PDF
 
-Funciona com base em classes
+Funciona com base em classes do tipo controler( diagrama de classes)
+  e pega as funcoes que alterar 
+  
 
 
 Principais Elementos: 
@@ -12,10 +15,11 @@ Principais Elementos:
   
   Transição (Seta contínua): Indica a mudança de um estado para outro.
   
-  Gatilho / Evento (Texto sobre a seta): A ação que dispara a transição de estado.
+  trigger (Gatilho / Evento) (Texto sobre a seta): A ação que dispara a transição de estado.
   
   Guarda / Condição (Entre colchetes [ ]): Uma regra booleana necessária para que a transição aconteça (ex: [pontos >= 100]).
 
+  chose/pseudo-gate = quando tem duas condicoes saindo de um estado
 
 Sintaxe da Transição
   A notação padrão para nomear as setas de transição é: Evento [condicao de guarda] / acao; Exemplo: clicarPause() [somLigado == true] / pausarAudio()
