@@ -1,5 +1,6 @@
 vai no print diagram, e de um PDF
 
+
 Funciona com base em classes do tipo controler( diagrama de classes)
   e pega as funcoes que alterar 
   um estado nao pode ter dois eventos saindo dele, nesse caso se usa um choose.
