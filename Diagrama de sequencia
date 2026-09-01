@@ -5,9 +5,22 @@ tem que ter a ordem = ator( quem vai interagir com o caso de uso/ sistema). faze
 
 
 
-Mensagens: as mensagens encima da seta podem ser funcoes que nao estavam presentes no diagrama de classe 
-    geralmente apenas na seta para o 'controller' se coloca a funcao "real" em si
-  
+Mensagens: as mensagens encima da seta podem ser funcoes que nao estavam presentes no diagrama de classe. geralmente apenas na seta para o 'controller' se coloca a funcao "real" em si
+    return = retorna algo para o objeto.
+    
+Fragmentos de Interações: Fragmentos fornecem uma semântica mais clara de como ocorre o comportamento em um diagrama de sequência. Um fragmento combinado encapsula partes de um diagrama de sequência,
+    onde fluxos separados podem ser modelados, mostrando como as condições levam a caminhos alternativos de execução.
+    OPT -  Execução Opcional = 
+    PAR - Execução paralela =
+    LOOP – Execução de Loop =
+    REF– Operador de referência = 
+    ALT - Execução condicional = 
+
+
+parte de extend e includ:
+    pesquise sobre.
+
+
 para representar um 'extend' se usa a caixa 'opt'(opcional), e para as funcoes do caso de uso se coloca as caixar 'alt'(alternativo) dentro do 'opt'
 
 
