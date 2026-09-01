@@ -1,7 +1,7 @@
 fazer seguindo o diagrama de caso de uso( um caso de uso expecifico) . cada diagrama de sequencia corresponde a um caso de uso .
 
 
-tem que ter a ordem = ator( quem vai interagir com o caso de uso/ sistema) fazendo a ordem do MVC ( BOUTARY - CONTROL - MODEL)
+tem que ter a ordem = ator( quem vai interagir com o caso de uso/ sistema) fazendo a ordem do MVC (ou, BOUNTARY - CONTROL - ENTITY)
 
 as mensagens encima da seta podem ser funcoes que nao estavam presentes no diagrama de classe 
     geralmente apenas na seta para o 'controller' se coloca a funcao "real" em si
