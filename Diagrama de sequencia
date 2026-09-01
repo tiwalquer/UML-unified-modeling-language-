@@ -1,9 +1,11 @@
-fazer seguindo o diagrama de caso de uso( um caso de uso expecifico) . cada diagrama de sequencia corresponde a um caso de uso .
+fazer seguindo o diagrama de caso de uso( um caso de uso expecifico) . cada diagrama de sequencia corresponde a um caso de uso . mostra a sequencia de passos que é necessario para realizar aquele caso de uso.  
+    
+tem que ter a ordem = ator( quem vai interagir com o caso de uso/ sistema). fazendo a ordem do MVC (ou, BOUNTARY - CONTROL - ENTITY/ VIEW - CONTROL - MODEL), com as classes do diagrama de classes
+    
 
 
-tem que ter a ordem = ator( quem vai interagir com o caso de uso/ sistema) fazendo a ordem do MVC (ou, BOUNTARY - CONTROL - ENTITY)
 
-as mensagens encima da seta podem ser funcoes que nao estavam presentes no diagrama de classe 
+Mensagens: as mensagens encima da seta podem ser funcoes que nao estavam presentes no diagrama de classe 
     geralmente apenas na seta para o 'controller' se coloca a funcao "real" em si
   
 para representar um 'extend' se usa a caixa 'opt'(opcional), e para as funcoes do caso de uso se coloca as caixar 'alt'(alternativo) dentro do 'opt'
