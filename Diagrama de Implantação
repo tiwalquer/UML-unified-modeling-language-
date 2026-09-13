@@ -1,0 +1,13 @@
+Diagrama de Implantação = serve para mostrar a arquitetura física/hardware onde o seu jogo ou sistema realmente roda e como esses ambientes se comunicam ou tambem pode ser a sua infraestrutura
+  (servidor, computador do jogador, celular, banco de dados). 
+
+Nó = Nó Principal
+    O Hardware físico.	A casa onde você mora.
+
+Sub-Nó (Execution Environment) =  É o lugar ou o ambiente onde as coisas rodam. Pense nele como o "recipiente" ou a "plataforma".
+    Exemplo real: O seu computador (Nó principal) ou o navegador Chrome/Firefox (Sub-nó). Eles não são o seu jogo; são a infraestrutura que permite o jogo funcionar.
+
+Artefatos = Um artefato é uma entidade física, um elemento concreto que existe realmente no mundo real, assim como os nós que o suportam (Guedes, 2009).
+    Um artefato pode ser : Arquivo fonte, Arquivo executável, Arquivo de ajuda e um Documento texto, etc.
+    Exemplo real: O arquivo index.pck, index.wasm ou index.html. Se você abrir a pasta do seu projeto, você consegue ver, copiar ou deletar um Artefato. 
+      Você não consegue "deletar um sub-nó" como um arquivo simples.
