@@ -1,0 +1,21 @@
+#identifica os componentes que fazem parte do sistema, subsistema ou ate mesmo componentes ou classes de um componenete individual( visao de alto nivel)#
+  . Mostra as partes substituiveis do sistema e como elas se conectam por meio de onterfaces
+  . facilitam na reutilizacao do codigo 
+  . A ideia central é o encapsulamento
+  ##Podem se dividir em:##
+    . **Componente Lógico** - componente de negócio ou processo
+    . **Componente Físico** - código fonte, help, bibliotecas, arquivos executáveis.
+
+  ##interfaces##
+      . interface fornecida: o componente oferece/implementa o servico
+      . interface requerida: o componente precisa/usa o servico
+
+  ##Estereótipos##
+    . Componente(component)
+    . Subsistema(subsystem)
+    . Executável (executable)
+    . Biblioteca (library)
+    . Tabela (table)
+    . Fronteira (boundary)
+    . Documento (document)
+    . Arquivo (file)
