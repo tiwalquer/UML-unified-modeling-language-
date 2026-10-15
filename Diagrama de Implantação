@@ -4,6 +4,20 @@ Diagrama de Implantação = serve para mostrar a arquitetura física/hardware on
 Nó = Nó Principal
     O Hardware físico.	A casa onde você mora.
 
+    Estereótipos Detalhados =
+      Hardware:
+
+      <<computer>> - Computador Pessoal;
+      <<mobile device>> - Celulares ou Tablets;
+      <<embedded device>> - Sensores IoT ou Microcontrolador;
+      <<firewall, router, switch>> - Dispositivos de Rede;
+  
+      Software:
+      <<application server, server>> - Servidores de Aplicação;
+      <<database, database system>> - Sistema de Banco de Dados;
+      <<web server>> - Servidores Web;
+      <<OS>> - Sistemas Operacionais.
+
 Sub-Nó (Execution Environment) =  É o lugar ou o ambiente onde as coisas rodam. Pense nele como o "recipiente" ou a "plataforma".
     Exemplo real: O seu computador (Nó principal) ou o navegador Chrome/Firefox (Sub-nó). Eles não são o seu jogo; são a infraestrutura que permite o jogo funcionar.
 
