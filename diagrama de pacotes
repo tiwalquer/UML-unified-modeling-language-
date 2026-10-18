@@ -1,2 +1,14 @@
 representa as divisoes logicas de um sistema, chamadas pacotes. permite demonstrar como os pacotes terao dependencia entre si. separa modulos divisoes ou camadas de arquitetura
+
+caracteristicas
+  - São utilizados para agrupar elementos;
   
+  - Pode representar:
+      Sistema <<system>>
+      Subsistema <<subsystem>>
+      Biblioteca <<library>>
+      Módulo <<model>>
+  - Camadas de Arquitetura;
+  
+  - Um pacote pode conter vários pacotes;
+  - Ele pode mostrar as classes que o pacote contém.
